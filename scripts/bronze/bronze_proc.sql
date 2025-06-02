@@ -97,3 +97,8 @@ EXCEPTION
         RAISE NOTICE '==========================================';
 END;
 $$;
+
+
+
+--CALL THE PROCEDURE TO LOAD DATA
+CALL bronze.load_bronze();
